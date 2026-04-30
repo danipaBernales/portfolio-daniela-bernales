@@ -1,0 +1,152 @@
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: #f4f4f4;
+
+    color: #333;
+}
+
+header {
+
+    background: #111827;
+
+    color: white;
+
+    padding: 20px;
+}
+
+nav {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+nav ul {
+
+    list-style: none;
+
+    display: flex;
+
+    gap: 20px;
+}
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+}
+
+.hero {
+
+    text-align: center;
+
+    padding: 60px 20px;
+}
+
+.hero img {
+
+    width: 180px;
+
+    border-radius: 50%;
+}
+
+.btn {
+
+    background: #2563eb;
+
+    color: white;
+
+    padding: 12px 20px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+.container {
+
+    width: 90%;
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    padding: 40px 20px;
+}
+
+.project-card {
+
+    background: white;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+
+    width: 100%;
+}
+
+.case-study {
+
+    background: #fff;
+
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+
+    border: 1px solid #ccc;
+
+    padding: 10px;
+}
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+input,
+textarea {
+
+    padding: 12px;
+
+    margin-bottom: 15px;
+}
+
+button {
+
+    padding: 12px;
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+}
